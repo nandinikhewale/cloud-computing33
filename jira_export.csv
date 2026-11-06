@@ -1,21 +1,21 @@
-Issue Type,Key,Summary,Description,Epic Link,Story Points,Sprint,Assignee,Status
-Story,RAG-1,Define functional requirements,"Identify college document types, user query categories, and system functional constraints.",EPIC-1,3,Sprint 1,Student 1,DONE
-Task,RAG-2,Collect college documents,"Gather 5 standard college policy PDFs (regulations, exams, handbook, placements, rules).",EPIC-1,3,Sprint 1,Student 1,DONE
-Task,RAG-3,Prepare 50 sample questions,"Formulate 50 benchmark questions divided into Direct (A), Paraphrased (B), and Unanswerable (C).",EPIC-1,5,Sprint 1,Student 4,DONE
-Task,RAG-4,Install Ollama runtime,"Download and configure local Ollama daemon for Windows/Linux.",EPIC-2,2,Sprint 1,Student 3,DONE
-Task,RAG-5,Run and test local LLM,"Pull and verify llama3.2:3b and nomic-embed-text models.",EPIC-2,3,Sprint 1,Student 3,DONE
-Story,RAG-6,Develop PDF text extractor,"Extract text and metadata page-by-page using PyPDF without crashing on blank pages.",EPIC-3,3,Sprint 2,Student 1,DONE
-Story,RAG-7,Develop text chunking module,"Implement sliding-window chunking (1200 chars, 200 overlap) with boundary retention.",EPIC-3,3,Sprint 2,Student 1,DONE
-Story,RAG-8,Generate embeddings,"Connect nomic-embed-text via Ollama API with fast fallback embedding support.",EPIC-3,5,Sprint 2,Student 2,DONE
-Story,RAG-9,Create vector database,"Initialize ChromaDB persistent collection and implement upsert batching.",EPIC-3,5,Sprint 2,Student 2,DONE
-Story,RAG-10,Develop semantic retrieval,"Convert user queries to embeddings and query top-k similar chunks from ChromaDB.",EPIC-3,5,Sprint 2,Student 2,DONE
-Story,RAG-11,Integrate retrieved context with LLM,"Inject formatted document passages into prompt and call local LLM for generation.",EPIC-3,5,Sprint 3,Student 3,DONE
-Story,RAG-12,Develop RAG prompt,"Craft strict zero-hallucination prompt instructing model to use only provided context.",EPIC-3,3,Sprint 3,Student 3,DONE
-Story,RAG-13,Implement source citation,"Extract document name and page number from chunk metadata and attach to final answer.",EPIC-3,3,Sprint 3,Student 2,DONE
-Story,RAG-14,Implement unknown-answer handling,"Shield system against out-of-scope queries by outputting official refusal message.",EPIC-3,3,Sprint 3,Student 3,DONE
-Story,RAG-15,Create Streamlit UI,"Design intuitive 5-tab web dashboard for Q&A, document upload, evaluation, and Jira.",EPIC-4,5,Sprint 3,Student 4,DONE
-Story,RAG-16,Display retrieved sources & metadata,"Show collapsible retrieved chunks with similarity scores and page numbers in UI.",EPIC-4,3,Sprint 3,Student 4,DONE
-Task,RAG-17,Perform functional testing,"Execute end-to-end integration tests on PDF upload, chunking, and Q&A flow.",EPIC-5,5,Sprint 4,Student 4,DONE
-Task,RAG-18,Evaluate LLM responses,"Execute 50-question benchmark and compute Retrieval Accuracy and Safe Refusal Rate.",EPIC-5,5,Sprint 4,Student 2,DONE
-Bug,RAG-19,Fix identified defects,"Resolve keyword overlap false positives in out-of-scope query detector.",EPIC-5,5,Sprint 4,Student 3,DONE
-Task,RAG-20,Prepare documentation and demo,"Compile project synopsis, architecture diagrams, slides, and final presentation.",EPIC-6,5,Sprint 4,All Students,DONE
+Project Name,Project Key,Project Type,Issue Type,Summary,Description,Epic Link,Story Points,Sprint,Assignee,Status
+College RAG Assistant,RAG,software,Story,Define functional requirements,"Identify college document types, user query categories, and system functional constraints.",EPIC-1,3,Sprint 1,Student 1,To Do
+College RAG Assistant,RAG,software,Task,Collect college documents,"Gather 5 standard college policy PDFs (regulations, exams, handbook, placements, rules).",EPIC-1,3,Sprint 1,Student 1,To Do
+College RAG Assistant,RAG,software,Task,Prepare 50 sample questions,"Formulate 50 benchmark questions divided into Direct (A), Paraphrased (B), and Unanswerable (C).",EPIC-1,5,Sprint 1,Student 4,To Do
+College RAG Assistant,RAG,software,Task,Install Ollama runtime,"Download and configure local Ollama daemon for Windows/Linux.",EPIC-2,2,Sprint 1,Student 3,To Do
+College RAG Assistant,RAG,software,Task,Run and test local LLM,"Pull and verify llama3.2:3b and nomic-embed-text models.",EPIC-2,3,Sprint 1,Student 3,To Do
+College RAG Assistant,RAG,software,Story,Develop PDF text extractor,"Extract text and metadata page-by-page using PyPDF without crashing on blank pages.",EPIC-3,3,Sprint 2,Student 1,To Do
+College RAG Assistant,RAG,software,Story,Develop text chunking module,"Implement sliding-window chunking (1200 chars, 200 overlap) with boundary retention.",EPIC-3,3,Sprint 2,Student 1,To Do
+College RAG Assistant,RAG,software,Story,Generate embeddings,"Connect nomic-embed-text via Ollama API with fast fallback embedding support.",EPIC-3,5,Sprint 2,Student 2,To Do
+College RAG Assistant,RAG,software,Story,Create vector database,"Initialize ChromaDB persistent collection and implement upsert batching.",EPIC-3,5,Sprint 2,Student 2,To Do
+College RAG Assistant,RAG,software,Story,Develop semantic retrieval,"Convert user queries to embeddings and query top-k similar chunks from ChromaDB.",EPIC-3,5,Sprint 2,Student 2,To Do
+College RAG Assistant,RAG,software,Story,Integrate retrieved context with LLM,"Inject formatted document passages into prompt and call local LLM for generation.",EPIC-3,5,Sprint 3,Student 3,To Do
+College RAG Assistant,RAG,software,Story,Develop RAG prompt,"Craft strict zero-hallucination prompt instructing model to use only provided context.",EPIC-3,3,Sprint 3,Student 3,To Do
+College RAG Assistant,RAG,software,Story,Implement source citation,"Extract document name and page number from chunk metadata and attach to final answer.",EPIC-3,3,Sprint 3,Student 2,To Do
+College RAG Assistant,RAG,software,Story,Implement unknown-answer handling,"Shield system against out-of-scope queries by outputting official refusal message.",EPIC-3,3,Sprint 3,Student 3,To Do
+College RAG Assistant,RAG,software,Story,Create Streamlit UI,"Design intuitive 5-tab web dashboard for Q&A, document upload, evaluation, and Jira.",EPIC-4,5,Sprint 3,Student 4,To Do
+College RAG Assistant,RAG,software,Story,Display retrieved sources & metadata,"Show collapsible retrieved chunks with similarity scores and page numbers in UI.",EPIC-4,3,Sprint 3,Student 4,To Do
+College RAG Assistant,RAG,software,Task,Perform functional testing,"Execute end-to-end integration tests on PDF upload, chunking, and Q&A flow.",EPIC-5,5,Sprint 4,Student 4,To Do
+College RAG Assistant,RAG,software,Task,Evaluate LLM responses,"Execute 50-question benchmark and compute Retrieval Accuracy and Safe Refusal Rate.",EPIC-5,5,Sprint 4,Student 2,To Do
+College RAG Assistant,RAG,software,Bug,Fix identified defects,"Resolve keyword overlap false positives in out-of-scope query detector.",EPIC-5,5,Sprint 4,Student 3,To Do
+College RAG Assistant,RAG,software,Task,Prepare documentation and demo,"Compile project synopsis, architecture diagrams, slides, and final presentation.",EPIC-6,5,Sprint 4,All Students,To Do
