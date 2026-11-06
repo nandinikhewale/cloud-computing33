@@ -1,0 +1,863 @@
+{
+  "total_questions": 50,
+  "answerable_questions": 40,
+  "unanswerable_questions": 10,
+  "correct_retrievals": 36,
+  "retrieval_accuracy_percent": 90.0,
+  "correct_safe_refusals": 10,
+  "safe_refusal_rate_percent": 100.0,
+  "total_duration_seconds": 0.81,
+  "average_latency_seconds": 0.016,
+  "results": [
+    {
+      "id": 1,
+      "category": "A - Direct",
+      "question": "What is the minimum attendance required to appear for the semester examination?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: academic_regulations.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nACADEMIC REGULATIONS & CURRICULUM FRAMEWORK\n1. Minimum Attendance Requirements\nA student must maintain a minimum attendance of 75% in aggregate across all registered courses in a semester to be\neligible to appear for the semester end examinations.\nStudents having attendance between 65% and 74% may apply for attendance condonation solely on genuine medical\ngrounds or sanctioned institutional representation. A non-refundable condonation fee of Rs. 1,000 must be remitted\nalong with a valid medical certificate issued by a registered medical practitioner.\nStudents with attendance below 65% are strictly not eligible for condonation and shall be detained, requiring them to\nrepeat the entire semester in the subsequent academic year.\n2. Degree Credit Requirements\nFor the award of the Bachelor of Technology (B.Tech) degree, a candidate must successfully complete and earn a\nminimum total of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution i\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.367
+    },
+    {
+      "id": 2,
+      "category": "A - Direct",
+      "question": "How many credits are required for the award of B.Tech degree?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 3: academic_regulations.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nACADEMIC REGULATIONS & CURRICULUM FRAMEWORK\n1. Minimum Attendance Requirements\nA student must maintain a minimum attendance of 75% in aggregate across all registered courses in a semester to be\neligible to appear for the semester end examinations.\nStudents having attendance between 65% and 74% may apply for attendance condonation solely on genuine medical\ngrounds or sanctioned institutional representation. A non-refundable condonation fee of Rs. 1,000 must be remitted\nalong with a valid medical certificate issued by a registered medical practitioner.\nStudents with attendance below 65% are strictly not eligible for condonation and shall be detained, requiring them to\nrepeat the entire semester in the subsequent academic year.\n2. Degree Credit Requirements\nFor the award of the Bachelor of Technology (B.Tech) degree, a candidate must successfully complete and earn a\nminimum total of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution i\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.018
+    },
+    {
+      "id": 3,
+      "category": "A - Direct",
+      "question": "What is the procedure and fee for examination revaluation?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nEXAMINATION GUIDELINES & EVALUATION POLICIES\n1. Examination Revaluation and Recounting Procedure\nStudents who are not satisfied with their semester end examination grades may apply for paper revaluation or\nrecounting within 15 calendar days from the date of declaration of results on the college portal.\nThe revaluation fee is Rs. 500 per theoretical course, and recounting fee is Rs. 200 per course.\nIf the difference between the original marks and the revaluated marks is 5% or more, the higher mark will be adopted as\nthe revised final grade.\nRevaluation is strictly not applicable for practical laboratory examinations, seminar evaluations, and project viva-voce\nexaminations.\n2. Backlog Examinations & Supplementary Schedule\nSupplementary examinations for clearing backlog courses are conducted twice each academic year, concurrently with\nthe regular Odd and Even semester end examinations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplement\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.01
+    },
+    {
+      "id": 4,
+      "category": "A - Direct",
+      "question": "What are the rules and maximum number of courses for backlog examination?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "department_rules.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nEXAMINATION GUIDELINES & EVALUATION POLICIES\n1. Examination Revaluation and Recounting Procedure\nStudents who are not satisfied with their semester end examination grades may apply for paper revaluation or\nrecounting within 15 calendar days from the date of declaration of results on the college portal.\nThe revaluation fee is Rs. 500 per theoretical course, and recounting fee is Rs. 200 per course.\nIf the difference between the original marks and the revaluated marks is 5% or more, the higher mark will be adopted as\nthe revised final grade.\nRevaluation is strictly not applicable for practical laboratory examinations, seminar evaluations, and project viva-voce\nexaminations.\n2. Backlog Examinations & Supplementary Schedule\nSupplementary examinations for clearing backlog courses are conducted twice each academic year, concurrently with\nthe regular Odd and Even semester end examinations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplement\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 5,
+      "category": "A - Direct",
+      "question": "What is the minimum CGPA required for placement eligibility?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: placement_guidelines.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nTRAINING & PLACEMENT CELL POLICY GUIDELINES\n1. Placement Eligibility Criteria\nTo be eligible for participation in campus placement recruitment drives, students must fulfill:\n  a) Minimum cumulative grade point average (CGPA) of 6.50 through the 6th semester.\n  b) No active backlogs (standing arrears) at the time of appearing for the company test/interview.\n  c) Minimum 85% attendance record in pre-placement soft-skills and aptitude training programs.\n2. Offer Tier System (Dream & Super-Dream Offers)\nThe Training & Placement Cell follows a structured tier policy:\n  - Regular Offer: Compensation Packages up to Rs. 6.0 LPA.\n  - Dream Offer: Packages between Rs. 6.01 LPA and Rs. 11.99 LPA.\n  - Super-Dream Offer: Packages of Rs. 12.0 LPA and above.\nPolicy: A student securing a Regular Offer remains eligible to apply exclusively for Dream or Super-Dream companies.\nOnce a student secures a Dream Offer, they are solely eligible for Super-Dream opportunities. Securing a Super-Dream\noffer concludes their placement drives.\n3. Mandatory Registration Documents\nStudents appearing for\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 6,
+      "category": "A - Direct",
+      "question": "What documents are required for placement registration?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "placement_guidelines.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: placement_guidelines.pdf | Page 1):\n\nsecures a Dream Offer, they are solely eligible for Super-Dream opportunities. Securing a Super-Dream\noffer concludes their placement drives.\n3. Mandatory Registration Documents\nStudents appearing for campus drives must bring 2 copies of verified resumes, original 10th and 12th standard mark\nsheets, all semester grade sheets, 4 recent passport-size photographs, government ID (Aadhaar/PAN/Passport), and\nofficial college ID card.\n4. Discipline & Code of Conduct during Drives\nFull formal business attire is mandatory for all interviews.\nRegistering for a company drive and failing to appear without prior written Dean permission will result in blacklisting from\n3 subsequent company recruitment drives.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 7,
+      "category": "A - Direct",
+      "question": "What are the college instructional working hours?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "student_handbook.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: student_handbook.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nSTUDENT CODE OF CONDUCT & CAMPUS LIFE HANDBOOK\n1. Campus Timings & General Working Hours\nCollege instructional hours are from 9:00 AM to 4:30 PM, Monday through Friday.\nAdministrative and student welfare counters operate between 9:30 AM and 4:00 PM on all instructional days.\nThe campus gates are closed for entry at 9:15 AM to ensure punctuality.\n2. Central Library Rules & Lending Policies\nThe Central Library remains open from 8:00 AM to 8:00 PM on all working days and 9:00 AM to 2:00 PM on Saturdays.\nUndergraduate students are eligible to borrow up to 4 books concurrently for a loan period of 14 days.\nAn overdue overdue fine of Rs. 2 per book per day will be levied on delayed returns.\nReference books, journals, and thesis dissertations are restricted to reading room consultation and cannot be issued\nout.\n3. Anti-Ragging Policy & Institutional Zero Tolerance\nRagging in any form (physical, psychological, cyber, or verbal) is strictly prohibited both inside and outside the college\ncampus.\nThe college maintains a Zero Tolerance Policy under UGC regulations.\nNational Anti-Ra\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.01
+    },
+    {
+      "id": 8,
+      "category": "A - Direct",
+      "question": "What is the library overdue fine per day per book?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 9,
+      "category": "A - Direct",
+      "question": "What is the national anti-ragging toll-free helpline number?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: student_handbook.pdf | Page 1):\n\norm (physical, psychological, cyber, or verbal) is strictly prohibited both inside and outside the college\ncampus.\nThe college maintains a Zero Tolerance Policy under UGC regulations.\nNational Anti-Ragging 24x7 Toll-Free Helpline: 1800-180-5522.\nCollege Anti-Ragging Squad Hotline: +91-9876543210 (ext: 204).\nAny student found guilty of ragging shall face immediate suspension, FIR filing with local police, and expulsion.\n4. Student Clubs, Sports & Extracurriculars\nEvery student is encouraged to participate in at least one registered student body:\n  - Technical: Google Developer Student Club (GDSC), Robotics & AI Club, Open Source Guild.\n  - Cultural & Literary: Rotaract Youth, Music Society, Theatre & Dramatic Guild, Debating Society.\n  - Sports: Cricket, Football, Basketball, Badminton, and Athletics teams with dedicated NIS-certified coaches.\n5. Dress Code and ID Card Compliance\nStudents are expected to dress in modest, professional attire suited to an academic learning environment.\nIdentity cards (ID cards) issued by the college must be worn visibly around the neck using the official lanyard at all times\nwhile present on campus.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.019
+    },
+    {
+      "id": 10,
+      "category": "A - Direct",
+      "question": "What is the Continuous Internal Assessment (CIA) weightage out of 100?",
+      "expected_document": "department_rules.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "student_handbook.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.004
+    },
+    {
+      "id": 11,
+      "category": "A - Direct",
+      "question": "What is the condonation fee for attendance between 65% and 74%?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: academic_regulations.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nACADEMIC REGULATIONS & CURRICULUM FRAMEWORK\n1. Minimum Attendance Requirements\nA student must maintain a minimum attendance of 75% in aggregate across all registered courses in a semester to be\neligible to appear for the semester end examinations.\nStudents having attendance between 65% and 74% may apply for attendance condonation solely on genuine medical\ngrounds or sanctioned institutional representation. A non-refundable condonation fee of Rs. 1,000 must be remitted\nalong with a valid medical certificate issued by a registered medical practitioner.\nStudents with attendance below 65% are strictly not eligible for condonation and shall be detained, requiring them to\nrepeat the entire semester in the subsequent academic year.\n2. Degree Credit Requirements\nFor the award of the Bachelor of Technology (B.Tech) degree, a candidate must successfully complete and earn a\nminimum total of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution i\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.016
+    },
+    {
+      "id": 12,
+      "category": "A - Direct",
+      "question": "How many credits are required for lateral entry B.Tech students?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: academic_regulations.pdf | Page 1):\n\ntal of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution includes: Basic Sciences (24 credits), Engineering Sciences (20 credits), Professional Core\n(60 credits), Professional Electives (18 credits), Open Electives (12 credits), Humanities & Management (12 credits),\nand Mandatory Projects/Internships (14 credits).\n3. Grading System and Passing Standards\nAcademic performance is assessed using a 10-point letter grading scale:\n  - O (Outstanding): Grade Point 10 (Marks >= 90%)\n  - A+ (Excellent): Grade Point 9 (Marks 80% to 89%)\n  - A (Very Good): Grade Point 8 (Marks 70% to 79%)\n  - B+ (Good): Grade Point 7 (Marks 60% to 69%)\n  - B (Above Average): Grade Point 6 (Marks 50% to 59%)\n  - C (Passing): Grade Point 5 (Marks 40% to 49%)\n  - F (Fail / Backlog): Grade Point 0 (Marks < 40%)\nA student must secure a minimum of 40% marks in Semester End Examination and 40% overall aggregate to earn\npassing credit in a course.\n4. Semester Registration Procedure\nEvery student is required to complete formal semester course registration within 7 calendar days f\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 13,
+      "category": "A - Direct",
+      "question": "What is the minimum passing grade and percentage in a course?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.002
+    },
+    {
+      "id": 14,
+      "category": "A - Direct",
+      "question": "Within how many days must a student complete semester course registration?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: academic_regulations.pdf | Page 1):\n\ntal of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution includes: Basic Sciences (24 credits), Engineering Sciences (20 credits), Professional Core\n(60 credits), Professional Electives (18 credits), Open Electives (12 credits), Humanities & Management (12 credits),\nand Mandatory Projects/Internships (14 credits).\n3. Grading System and Passing Standards\nAcademic performance is assessed using a 10-point letter grading scale:\n  - O (Outstanding): Grade Point 10 (Marks >= 90%)\n  - A+ (Excellent): Grade Point 9 (Marks 80% to 89%)\n  - A (Very Good): Grade Point 8 (Marks 70% to 79%)\n  - B+ (Good): Grade Point 7 (Marks 60% to 69%)\n  - B (Above Average): Grade Point 6 (Marks 50% to 59%)\n  - C (Passing): Grade Point 5 (Marks 40% to 49%)\n  - F (Fail / Backlog): Grade Point 0 (Marks < 40%)\nA student must secure a minimum of 40% marks in Semester End Examination and 40% overall aggregate to earn\npassing credit in a course.\n4. Semester Registration Procedure\nEvery student is required to complete formal semester course registration within 7 calendar days f\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.016
+    },
+    {
+      "id": 15,
+      "category": "A - Direct",
+      "question": "Within how many days of result declaration can a student apply for revaluation?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 16,
+      "category": "A - Direct",
+      "question": "What is the fee per course for recounting examination marks?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nEXAMINATION GUIDELINES & EVALUATION POLICIES\n1. Examination Revaluation and Recounting Procedure\nStudents who are not satisfied with their semester end examination grades may apply for paper revaluation or\nrecounting within 15 calendar days from the date of declaration of results on the college portal.\nThe revaluation fee is Rs. 500 per theoretical course, and recounting fee is Rs. 200 per course.\nIf the difference between the original marks and the revaluated marks is 5% or more, the higher mark will be adopted as\nthe revised final grade.\nRevaluation is strictly not applicable for practical laboratory examinations, seminar evaluations, and project viva-voce\nexaminations.\n2. Backlog Examinations & Supplementary Schedule\nSupplementary examinations for clearing backlog courses are conducted twice each academic year, concurrently with\nthe regular Odd and Even semester end examinations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplement\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 17,
+      "category": "A - Direct",
+      "question": "What is the penalty for Category 2 exam malpractice?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\ninations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplementary exam registration form and pay a backlog examination fee of Rs. 350 per\nsubject before the notified deadline.\n3. Hall Ticket Eligibility & Issuance\nHall tickets for end-semester examinations will be issued 3 days prior to the examination start date via the student\nportal.\nEligibility criteria for hall ticket release:\n  a) Verified minimum 75% attendance (or approved condonation).\n  b) Full settlement of tuition fees and library dues.\n  c) No pending disciplinary suspension orders from the Proctorial Board.\n4. Malpractice Penalties and Proctorial Action\nPossession of mobile phones, smartwatches, programmable calculators, cheat sheets, or unauthorized electronic\ngadgets inside the exam hall constitutes serious malpractice.\nCategory 1 Malpractice (Possession without use): Cancellation of that specific paper.\nCategory 2 Malpractice (Copying / Use of external aid): Cancellation of all written exams of that session plus debarment\nfrom examinations for 1 full academic year.\nPage 1/1 - Off\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.012
+    },
+    {
+      "id": 18,
+      "category": "A - Direct",
+      "question": "How many books can an undergraduate student borrow from the central library?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.01
+    },
+    {
+      "id": 19,
+      "category": "A - Direct",
+      "question": "What is the package range for a Super-Dream placement offer?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: placement_guidelines.pdf | Page 1):\n\nsecures a Dream Offer, they are solely eligible for Super-Dream opportunities. Securing a Super-Dream\noffer concludes their placement drives.\n3. Mandatory Registration Documents\nStudents appearing for campus drives must bring 2 copies of verified resumes, original 10th and 12th standard mark\nsheets, all semester grade sheets, 4 recent passport-size photographs, government ID (Aadhaar/PAN/Passport), and\nofficial college ID card.\n4. Discipline & Code of Conduct during Drives\nFull formal business attire is mandatory for all interviews.\nRegistering for a company drive and failing to appear without prior written Dean permission will result in blacklisting from\n3 subsequent company recruitment drives.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.011
+    },
+    {
+      "id": 20,
+      "category": "A - Direct",
+      "question": "What is the maximum allowed plagiarism percentage in mini-project reports?",
+      "expected_document": "department_rules.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "student_handbook.pdf",
+        "department_rules.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 3: department_rules.pdf | Page 1):\n\n(SEE): 60 Marks\n3. Mini-Project and Major Project Submission Rules\nFinal-year mini-project reports must adhere strictly to IEEE two-column documentation standards.\nSoft copy and two hard-bound copies signed by the project guide and Head of Department (HOD) must be submitted at\nleast 14 days prior to the commencement of viva-voce examinations.\nPlagiarism in project code or report text exceeding 15% as checked via Turnitin will lead to automatic rejection of the\nproject.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.011
+    },
+    {
+      "id": 21,
+      "category": "B - Paraphrased",
+      "question": "How many classes can I miss before becoming ineligible for exams?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.003
+    },
+    {
+      "id": 22,
+      "category": "B - Paraphrased",
+      "question": "Can I sit for end semester exams if my attendance is 68%?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 3: examination_guidelines.pdf | Page 1):\n\ninations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplementary exam registration form and pay a backlog examination fee of Rs. 350 per\nsubject before the notified deadline.\n3. Hall Ticket Eligibility & Issuance\nHall tickets for end-semester examinations will be issued 3 days prior to the examination start date via the student\nportal.\nEligibility criteria for hall ticket release:\n  a) Verified minimum 75% attendance (or approved condonation).\n  b) Full settlement of tuition fees and library dues.\n  c) No pending disciplinary suspension orders from the Proctorial Board.\n4. Malpractice Penalties and Proctorial Action\nPossession of mobile phones, smartwatches, programmable calculators, cheat sheets, or unauthorized electronic\ngadgets inside the exam hall constitutes serious malpractice.\nCategory 1 Malpractice (Possession without use): Cancellation of that specific paper.\nCategory 2 Malpractice (Copying / Use of external aid): Cancellation of all written exams of that session plus debarment\nfrom examinations for 1 full academic year.\nPage 1/1 - Off\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.014
+    },
+    {
+      "id": 23,
+      "category": "B - Paraphrased",
+      "question": "What happens if my attendance drops below sixty-five percent?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 24,
+      "category": "B - Paraphrased",
+      "question": "Total credit score needed to complete engineering degree?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "academic_regulations.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 3: academic_regulations.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nACADEMIC REGULATIONS & CURRICULUM FRAMEWORK\n1. Minimum Attendance Requirements\nA student must maintain a minimum attendance of 75% in aggregate across all registered courses in a semester to be\neligible to appear for the semester end examinations.\nStudents having attendance between 65% and 74% may apply for attendance condonation solely on genuine medical\ngrounds or sanctioned institutional representation. A non-refundable condonation fee of Rs. 1,000 must be remitted\nalong with a valid medical certificate issued by a registered medical practitioner.\nStudents with attendance below 65% are strictly not eligible for condonation and shall be detained, requiring them to\nrepeat the entire semester in the subsequent academic year.\n2. Degree Credit Requirements\nFor the award of the Bachelor of Technology (B.Tech) degree, a candidate must successfully complete and earn a\nminimum total of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution i\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.016
+    },
+    {
+      "id": 25,
+      "category": "B - Paraphrased",
+      "question": "I received an F grade. What grade point does that give me?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: academic_regulations.pdf | Page 1):\n\ntal of 160 credits over 8 semesters.\nLateral entry students admitted directly into the second year (third semester) must earn a minimum of 120 credits across\n6 semesters.\nThe curriculum distribution includes: Basic Sciences (24 credits), Engineering Sciences (20 credits), Professional Core\n(60 credits), Professional Electives (18 credits), Open Electives (12 credits), Humanities & Management (12 credits),\nand Mandatory Projects/Internships (14 credits).\n3. Grading System and Passing Standards\nAcademic performance is assessed using a 10-point letter grading scale:\n  - O (Outstanding): Grade Point 10 (Marks >= 90%)\n  - A+ (Excellent): Grade Point 9 (Marks 80% to 89%)\n  - A (Very Good): Grade Point 8 (Marks 70% to 79%)\n  - B+ (Good): Grade Point 7 (Marks 60% to 69%)\n  - B (Above Average): Grade Point 6 (Marks 50% to 59%)\n  - C (Passing): Grade Point 5 (Marks 40% to 49%)\n  - F (Fail / Backlog): Grade Point 0 (Marks < 40%)\nA student must secure a minimum of 40% marks in Semester End Examination and 40% overall aggregate to earn\npassing credit in a course.\n4. Semester Registration Procedure\nEvery student is required to complete formal semester course registration within 7 calendar days f\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 26,
+      "category": "B - Paraphrased",
+      "question": "What is the late fee charge if I register for subjects in the second week?",
+      "expected_document": "academic_regulations.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.016
+    },
+    {
+      "id": 27,
+      "category": "B - Paraphrased",
+      "question": "How much does it cost to get my exam answers checked again?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "student_handbook.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.011
+    },
+    {
+      "id": 28,
+      "category": "B - Paraphrased",
+      "question": "By how much must revaluation marks increase for the grade to be changed?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nEXAMINATION GUIDELINES & EVALUATION POLICIES\n1. Examination Revaluation and Recounting Procedure\nStudents who are not satisfied with their semester end examination grades may apply for paper revaluation or\nrecounting within 15 calendar days from the date of declaration of results on the college portal.\nThe revaluation fee is Rs. 500 per theoretical course, and recounting fee is Rs. 200 per course.\nIf the difference between the original marks and the revaluated marks is 5% or more, the higher mark will be adopted as\nthe revised final grade.\nRevaluation is strictly not applicable for practical laboratory examinations, seminar evaluations, and project viva-voce\nexaminations.\n2. Backlog Examinations & Supplementary Schedule\nSupplementary examinations for clearing backlog courses are conducted twice each academic year, concurrently with\nthe regular Odd and Even semester end examinations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplement\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.007
+    },
+    {
+      "id": 29,
+      "category": "B - Paraphrased",
+      "question": "When can a student give their arrear papers?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 30,
+      "category": "B - Paraphrased",
+      "question": "What is the fee to write a backlog paper?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: examination_guidelines.pdf | Page 1):\n\ninations.\nA student with backlogs can register for a maximum of 4 backlog theory subjects per examination session alongside\ntheir regular current-semester subjects.\nStudents must submit the supplementary exam registration form and pay a backlog examination fee of Rs. 350 per\nsubject before the notified deadline.\n3. Hall Ticket Eligibility & Issuance\nHall tickets for end-semester examinations will be issued 3 days prior to the examination start date via the student\nportal.\nEligibility criteria for hall ticket release:\n  a) Verified minimum 75% attendance (or approved condonation).\n  b) Full settlement of tuition fees and library dues.\n  c) No pending disciplinary suspension orders from the Proctorial Board.\n4. Malpractice Penalties and Proctorial Action\nPossession of mobile phones, smartwatches, programmable calculators, cheat sheets, or unauthorized electronic\ngadgets inside the exam hall constitutes serious malpractice.\nCategory 1 Malpractice (Possession without use): Cancellation of that specific paper.\nCategory 2 Malpractice (Copying / Use of external aid): Cancellation of all written exams of that session plus debarment\nfrom examinations for 1 full academic year.\nPage 1/1 - Off\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.017
+    },
+    {
+      "id": 31,
+      "category": "B - Paraphrased",
+      "question": "What are the rules for bringing a smartwatch into the test room?",
+      "expected_document": "examination_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 32,
+      "category": "B - Paraphrased",
+      "question": "Can I borrow library books for a month?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "placement_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 33,
+      "category": "B - Paraphrased",
+      "question": "What are the library timings on Saturday?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "student_handbook.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: student_handbook.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nSTUDENT CODE OF CONDUCT & CAMPUS LIFE HANDBOOK\n1. Campus Timings & General Working Hours\nCollege instructional hours are from 9:00 AM to 4:30 PM, Monday through Friday.\nAdministrative and student welfare counters operate between 9:30 AM and 4:00 PM on all instructional days.\nThe campus gates are closed for entry at 9:15 AM to ensure punctuality.\n2. Central Library Rules & Lending Policies\nThe Central Library remains open from 8:00 AM to 8:00 PM on all working days and 9:00 AM to 2:00 PM on Saturdays.\nUndergraduate students are eligible to borrow up to 4 books concurrently for a loan period of 14 days.\nAn overdue overdue fine of Rs. 2 per book per day will be levied on delayed returns.\nReference books, journals, and thesis dissertations are restricted to reading room consultation and cannot be issued\nout.\n3. Anti-Ragging Policy & Institutional Zero Tolerance\nRagging in any form (physical, psychological, cyber, or verbal) is strictly prohibited both inside and outside the college\ncampus.\nThe college maintains a Zero Tolerance Policy under UGC regulations.\nNational Anti-Ra\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 34,
+      "category": "B - Paraphrased",
+      "question": "Where should I report bullying or ragging incidents?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "department_rules.pdf",
+        "academic_regulations.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 35,
+      "category": "B - Paraphrased",
+      "question": "Is wearing an ID card mandatory inside the campus?",
+      "expected_document": "student_handbook.pdf",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: student_handbook.pdf | Page 1):\n\norm (physical, psychological, cyber, or verbal) is strictly prohibited both inside and outside the college\ncampus.\nThe college maintains a Zero Tolerance Policy under UGC regulations.\nNational Anti-Ragging 24x7 Toll-Free Helpline: 1800-180-5522.\nCollege Anti-Ragging Squad Hotline: +91-9876543210 (ext: 204).\nAny student found guilty of ragging shall face immediate suspension, FIR filing with local police, and expulsion.\n4. Student Clubs, Sports & Extracurriculars\nEvery student is encouraged to participate in at least one registered student body:\n  - Technical: Google Developer Student Club (GDSC), Robotics & AI Club, Open Source Guild.\n  - Cultural & Literary: Rotaract Youth, Music Society, Theatre & Dramatic Guild, Debating Society.\n  - Sports: Cricket, Football, Basketball, Badminton, and Athletics teams with dedicated NIS-certified coaches.\n5. Dress Code and ID Card Compliance\nStudents are expected to dress in modest, professional attire suited to an academic learning environment.\nIdentity cards (ID cards) issued by the college must be worn visibly around the neck using the official lanyard at all times\nwhile present on campus.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 36,
+      "category": "B - Paraphrased",
+      "question": "If I have an active backlog, can I sit for campus interviews?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 37,
+      "category": "B - Paraphrased",
+      "question": "If I get a job offer of 5 LPA, can I still apply for other companies?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 38,
+      "category": "B - Paraphrased",
+      "question": "What punishment is given for skipping a company recruitment test after enrolling?",
+      "expected_document": "placement_guidelines.pdf",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": false,
+      "latency_sec": 0.011
+    },
+    {
+      "id": 39,
+      "category": "B - Paraphrased",
+      "question": "What footwear and attire is required in chemistry or mechanical workshops?",
+      "expected_document": "department_rules.pdf",
+      "retrieved_documents": [
+        "academic_regulations.pdf",
+        "department_rules.pdf",
+        "department_rules.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 2: department_rules.pdf | Page 1):\n\nXYZ INSTITUTE OF TECHNOLOGY & SCIENCE\nAutonomous Institution | Approved by AICTE & Affiliated to State University\nDEPARTMENTAL ACADEMIC & LABORATORY REGULATIONS\n1. Laboratory Safety Rules & Operational Standards\nSafety is paramount across all department laboratories:\n  - Students must wear white lab coats and closed-toe leather/safety shoes during chemistry, physics, and mechanical\nworkshops.\n  - Electrostatic Discharge (ESD) wrist straps are mandatory when handling microcontrollers and circuit hardware in\nelectronics laboratories.\n  - Food, beverages, and mobile phones are strictly forbidden inside computing and hardware laboratories.\n2. Internal Assessment Weightage Breakdown\nEach course evaluation carries a total of 100 marks divided as follows:\n  - Continuous Internal Assessment (CIA): 40 Marks\n      * Mid-Term Test 1 & 2: 25 Marks\n      * Continuous Quizzes and Technical Assignments: 10 Marks\n      * Classroom Attendance & Class Participation: 5 Marks\n  - Semester End Examination (SEE): 60 Marks\n3. Mini-Project and Major Project Submission Rules\nFinal-year mini-project reports must adhere strictly to IEEE two-column documentation standards.\nSoft copy and two hard-bound copies\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 40,
+      "category": "B - Paraphrased",
+      "question": "How many days before the viva must the final project report be submitted?",
+      "expected_document": "department_rules.pdf",
+      "retrieved_documents": [
+        "department_rules.pdf",
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": true,
+      "retrieval_success": true,
+      "answer": "According to the official college records (Document 1: department_rules.pdf | Page 1):\n\n(SEE): 60 Marks\n3. Mini-Project and Major Project Submission Rules\nFinal-year mini-project reports must adhere strictly to IEEE two-column documentation standards.\nSoft copy and two hard-bound copies signed by the project guide and Head of Department (HOD) must be submitted at\nleast 14 days prior to the commencement of viva-voce examinations.\nPlagiarism in project code or report text exceeding 15% as checked via Turnitin will lead to automatic rejection of the\nproject.\nPage 1/1 - Official College Publication\n\n*(Note: Ollama is currently offline; displaying verified retrieved context directly)*",
+      "is_safe_refusal": false,
+      "answer_grounded": true,
+      "latency_sec": 0.007
+    },
+    {
+      "id": 41,
+      "category": "C - Unanswerable",
+      "question": "What is the annual hostel fee for a single sharing air-conditioned room?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.009
+    },
+    {
+      "id": 42,
+      "category": "C - Unanswerable",
+      "question": "Who will be the chief guest for the upcoming graduation day convocation?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "department_rules.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.003
+    },
+    {
+      "id": 43,
+      "category": "C - Unanswerable",
+      "question": "What is the mess menu on Wednesday evening?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "student_handbook.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.011
+    },
+    {
+      "id": 44,
+      "category": "C - Unanswerable",
+      "question": "What is the route and timing of college bus number 12?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "examination_guidelines.pdf",
+        "department_rules.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 45,
+      "category": "C - Unanswerable",
+      "question": "What is the price of coffee at the college canteen?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "student_handbook.pdf",
+        "examination_guidelines.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.016
+    },
+    {
+      "id": 46,
+      "category": "C - Unanswerable",
+      "question": "What is the personal mobile phone number of the university chancellor?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "examination_guidelines.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.0
+    },
+    {
+      "id": 47,
+      "category": "C - Unanswerable",
+      "question": "How can I apply for an educational loan from the State Bank branch?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "placement_guidelines.pdf",
+        "examination_guidelines.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.018
+    },
+    {
+      "id": 48,
+      "category": "C - Unanswerable",
+      "question": "What are the rules and guidelines for joining the NCC naval wing?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "department_rules.pdf",
+        "student_handbook.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    },
+    {
+      "id": 49,
+      "category": "C - Unanswerable",
+      "question": "Is parking fee collected for two-wheelers in the campus basement?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "placement_guidelines.pdf",
+        "academic_regulations.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.007
+    },
+    {
+      "id": 50,
+      "category": "C - Unanswerable",
+      "question": "What was the cutoff ranking for aerospace engineering admissions in 2023?",
+      "expected_document": "NONE",
+      "retrieved_documents": [
+        "examination_guidelines.pdf",
+        "academic_regulations.pdf",
+        "placement_guidelines.pdf"
+      ],
+      "is_answerable": false,
+      "retrieval_success": false,
+      "answer": "Information not found in the available documents.",
+      "is_safe_refusal": true,
+      "answer_grounded": true,
+      "latency_sec": 0.008
+    }
+  ]
+}
