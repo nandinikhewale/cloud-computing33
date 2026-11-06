@@ -69,24 +69,32 @@ def get_active_api_key() -> tuple:
     return (None, None)
 
 
-def call_gemini_api(prompt: str, api_key: str, model: str = "gemini-1.5-flash") -> str:
+def call_gemini_api(prompt: str, api_key: str, model: str = "gemini-3.5-flash-lite") -> str:
     """
-    Calls Google Gemini REST API without requiring heavy external SDK packages.
+    Calls Google Gemini REST API using requests for high reliability.
     """
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 800}
-    }
-    data = json.dumps(payload).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"}, method="POST")
-    with urllib.request.urlopen(req, timeout=15) as resp:
-        res_data = json.loads(resp.read().decode("utf-8"))
-        candidates = res_data.get("candidates", [])
-        if candidates and "content" in candidates[0]:
-            parts = candidates[0]["content"].get("parts", [])
-            if parts and "text" in parts[0]:
-                return parts[0]["text"].strip()
+    import requests
+    
+    # Try gemini-3.5-flash-lite, fallback to gemini-3.5-flash
+    models_to_try = [model, "gemini-3.5-flash", "gemini-3.8-flash"]
+    for m in models_to_try:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={api_key}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0.1, "maxOutputTokens": 800}
+        }
+        try:
+            resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=12)
+            if resp.status_code == 200:
+                res_data = resp.json()
+                candidates = res_data.get("candidates", [])
+                if candidates and "content" in candidates[0]:
+                    parts = candidates[0]["content"].get("parts", [])
+                    if parts and "text" in parts[0]:
+                        return parts[0]["text"].strip()
+        except Exception:
+            continue
+
     return "Information not found in the available documents."
 
 
